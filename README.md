@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🛒 Agrolink Order Dashboard UI
 
-First, run the development server:
+A clean frontend dashboard built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**, replicating the Order Details and Orders Listing pages from Figma.
+
+### 📸 Demo
+
+[🔗 View Live Demo (Netlify)](https://your-netlify-link.netlify.app)
+
+---
+
+## 📦 Tech Stack
+
+- **Next.js** – App Router
+- **TypeScript** – Strong typing
+- **Tailwind CSS** – Utility-first styling
+- **shadcn/ui** – Accessible, pre-styled components
+- **Lucide Icons** – Clean icon set
+- **Netlify** – Hosting & deployment
+
+---
+
+## 🧱 Features
+
+### ✅ Orders Page
+- Clean table layout for all orders
+- Status badges with full color variants
+- Responsive action buttons and filters (Search, Status, Date)
+
+### ✅ Order Details Page
+- Summary: Order Info, Billing, and Delivery
+- Item list grouped by sellers
+- Visual progress tracker for shipping status
+- Status highlighting with current step
+
+---
+
+## 🔧 Running Locally
+
+Clone the repo:
+
+```bash
+git clone https://github.com/your-username/agrolink-order-dashboard.git
+cd agrolink-order-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was deployed using [**Netlify**](https://netlify.com)
 
-## Learn More
+To redeploy:
+- Push your changes to GitHub
+- Netlify auto-builds and releases updates
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Folder Structure Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+/app
+  /orders
+    page.tsx         → Orders list page
+    [id]/page.tsx    → Dynamic order detail
+/components/
+  /layout            → Topbar & Sidebar
+  /orders/           → Table, Badge, Timeline, etc.
+  /ui                → shadcn components
+/lib/
+  mockOrderDetails.ts → Sample mock data
+  types.ts           → TypeScript types
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙋🏽‍♀️ Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Chioma**  
+Frontend Developer 💻✨  
+
+
+---
+
+## 📌 License
+
+This project is for assessment/demo purposes. Feel free to fork and modify but not for commercial purpose.
+
+---
+
+```
+
