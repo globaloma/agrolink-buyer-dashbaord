@@ -98,7 +98,4 @@ Frontend Developer 💻✨
 
 This project is for assessment/demo purposes. Feel free to fork and modify but not for commercial purpose.
 
----
-
-```
 
