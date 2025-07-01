@@ -5,7 +5,7 @@ A clean frontend dashboard built with **Next.js**, **TypeScript**, **Tailwind CS
 
 ### 📸 Demo
 
-[🔗 View Live Demo (Netlify)](https://your-netlify-link.netlify.app)
+[🔗 View Live Demo (Netlify)](https://agrolinkbuyerdashboard.netlify.app/)
 
 ---
 
