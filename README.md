@@ -80,7 +80,8 @@ To redeploy:
   /orders/           → Table, Badge, Timeline, etc.
   /ui                → shadcn components
 /lib/
-  mockOrderDetails.ts → Sample mock data
+  mockOrderDetails.ts → Sample mock data orderdetails
+  mockOrders.ts → Sample mock data all orders
   types.ts           → TypeScript types
 ```
 
