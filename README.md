@@ -1,11 +1,11 @@
 
-# 🛒 Agrolink Order Dashboard UI
+#  Agrolink Order Dashboard UI
 
 A clean frontend dashboard built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**, replicating the Order Details and Orders Listing pages from Figma.
 
-### 📸 Demo
+###  Demo
 
-[🔗 View Live Demo (Netlify)](https://agrolinkbuyerdashboard.netlify.app/)
+[ View Live Demo (Netlify)](https://agrolinkbuyerdashboard.netlify.app/)
 
 #### /orders.....all orders page
 
@@ -13,7 +13,7 @@ A clean frontend dashboard built with **Next.js**, **TypeScript**, **Tailwind CS
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Next.js** – App Router
 - **TypeScript** – Strong typing
@@ -24,14 +24,14 @@ A clean frontend dashboard built with **Next.js**, **TypeScript**, **Tailwind CS
 
 ---
 
-## 🧱 Features
+##  Features
 
-### ✅ Orders Page
+###  Orders Page
 - Clean table layout for all orders
 - Status badges with full color variants
 - Responsive action buttons and filters (Search, Status, Date)
 
-### ✅ Order Details Page
+###  Order Details Page
 - Summary: Order Info, Billing, and Delivery
 - Item list grouped by sellers
 - Visual progress tracker for shipping status
@@ -39,7 +39,7 @@ A clean frontend dashboard built with **Next.js**, **TypeScript**, **Tailwind CS
 
 ---
 
-## 🔧 Running Locally
+##  Running Locally
 
 Clone the repo:
 
@@ -62,7 +62,7 @@ npm run dev
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 This project was deployed using [**Netlify**](https://netlify.com)
 
@@ -99,7 +99,7 @@ Frontend Developer 💻✨
 
 ---
 
-## 📌 License
+##  License
 
 This project is for assessment/demo purposes. Feel free to fork and modify but not for commercial purpose.
 
